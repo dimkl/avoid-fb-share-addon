@@ -6,3 +6,7 @@ Generally this addon allows you to open in a new tab the youtube video contained
 # Sites forcing to share
 * http://www.enhmerwsh.gr/
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dimkl/avoid-fb-share-addon/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
