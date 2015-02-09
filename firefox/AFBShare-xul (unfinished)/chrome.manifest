@@ -1,0 +1,8 @@
+# design
+content     afbshare    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://afbshare/content/afbshare.xul
+# localization
+locale afbshare en-US chrome/locale/en-US/
+locale afbshare el chrome/locale/el/
+# styling
+style chrome://global/content/customizeToolbar.xul chrome://afbshare/content/afbshare.css

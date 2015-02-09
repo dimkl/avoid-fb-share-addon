@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://afbshare/locale/afbshare.dtd">
+<?xml-stylesheet href="chrome://afbshare/content/afbshare.css" type="text/css"?>
+<overlay id="afbshare" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://afbshare/content/afbshare.js"/>
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="afbshare-button" class="" label="&afbshare.btn.label;" tooltiptext="&afbshare.btn.tooltip;" oncommand="OpenVideo(event)" />
+	</toolbarpalette>
+</overlay>

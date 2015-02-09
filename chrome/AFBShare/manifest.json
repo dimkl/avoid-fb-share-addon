@@ -1,0 +1,29 @@
+{
+ "author":"Dimitris Klouvas",
+ "name": "Avoid video FB share",
+ "description": "Avoid facebook sharing to view a youtube video",
+ "version": "1",
+ "manifest_version": 2,
+ "icons":{
+  "16":"unshare-16.png",
+  "128":"unshare-128.png"
+}
+, "browser_action": {
+  "default_title": "Avoid video FB share"
+}
+, "background": {
+  "scripts": ["background.js"],
+  "persistent": false
+}
+, "content_scripts": [
+{
+  "matches": ["http://*/*", "https://*/*"],
+  "js": ["content.js"]
+}
+]
+, "permissions": [
+"activeTab",
+"https://ajax.googleapis.com/"
+]
+,"omnibox": { "keyword" : "AFBshare" }
+}
