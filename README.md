@@ -7,4 +7,5 @@ Generally this addon allows you to open in a new tab the youtube video contained
 
 # Sites forcing to share
 * http://www.enhmerwsh.gr/
+* http://tonwtiko.com/
 
