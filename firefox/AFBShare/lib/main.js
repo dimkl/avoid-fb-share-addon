@@ -14,7 +14,14 @@ var button = buttons.ActionButton({
 });
 
 function handleClick(state) {
-	worker=tabs.activeTab.attach({
+	var worker=tabs.activeTab.attach({
 		contentScriptFile:  data.url("afbshare.js")
 	});
 }
+
+//clear share popup
+tabs.on('ready', function(tab) {
+	tab.attach({
+		contentScriptFile:  data.url("afbshare-blocker.js")
+	});
+});
