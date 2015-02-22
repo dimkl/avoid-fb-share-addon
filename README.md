@@ -17,4 +17,6 @@ Generally this addon allows you to open in a new tab the youtube video contained
 
 # Sites with facebook popup
 * [latesthackingnews.com](http://www.latesthackingnews.com/) 
+* [enhmerwsh.gr](http://www.enhmerwsh.gr/) 
+* [tonwtiko.com](http://tonwtiko.com/) 
 
