@@ -5,5 +5,5 @@
   "description": "Avoid facebook sharing to view a youtube video, open youtube video in new tab or block startup facebook share popups.",
   "author": "Dimitris Klouvas",
   "license": "MPL 2.0",
-  "version": "1.1.1"
+  "version": "2.1"
 }
